@@ -1,0 +1,26 @@
+Toy Robot Simulator Test Plan
+1. Introduction
+This test plan outlines the strategy and scope for testing the Toy Robot Simulator, a simulation game allowing a user to interactively control a virtual robot on a grid.
+
+2. Objectives
+To ensure that:
+
+The simulator correctly interprets and executes user commands.
+The simulator handles errors gracefully.
+The command history feature works correctly.
+File-based replay functionality operates as expected.
+3. Features to be Tested
+Command Input Processing:
+
+Valid commands.
+Invalid commands.
+Edge cases (e.g., moving the robot off the grid).
+File Operations:
+
+Writing to the command history file.
+Reading and replaying commands from a file.
+Robot Movements:
+
+Placement on the grid.
+Movements in all directions.
+Turns (left and right).

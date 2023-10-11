@@ -41,3 +41,8 @@ This need a UI and comprehensive logger to make it more extensive
 The commands are not case sensitive
 Apart from the PLACE command , remaining commands can be used without the use of '()' at the end of the command.
 
+**Test Plan and Stratergy:**
+The feature to replay and store the command history has been added to help with testing. This feature can help setup a baseline behaviour and can be tested after every code modification.
+The test included are not comprehensive and needs a bit of work. I have attached a test plan in test folder and more test cases can be written based on that.
+
+
