@@ -6,20 +6,30 @@ The Robot Simulator is a simulation game that allows a user to interactively con
 **Features**
 
 Command Processing: Interactively reads user input and processes commands for controlling the toy robot.
+
 Supported Commands:
-PLACE(X,Y,DIRECTION): Places the Robot at X,Y, facing the mentioned Direction (NORTH, SOUTH, WEST, EAST).
-MOVE(): Moves the robot by one unit in the direction it's facing unless that movement will cause the robot to fall off the grid.
-LEFT(): Rotates the robot 90° counter-clockwise.
-RIGHT(): Rotates the robot 90° clockwise.
-REPORT(): Outputs the robot's current grid location and facing direction.
+
+**PLACE**(X,Y,DIRECTION): Places the Robot at X,Y, facing the mentioned Direction (NORTH, SOUTH, WEST, EAST).
+
+**MOVE**(): Moves the robot by one unit in the direction it's facing unless that movement will cause the robot to fall off the grid.
+
+**LEFT**(): Rotates the robot 90° counter-clockwise.
+
+**RIGHT**(): Rotates the robot 90° clockwise.
+
+**REPORT**(): Outputs the robot's current grid location and facing direction.
+
 Command History: All commands given to the robot are saved to a history file, allowing users to review robot movements.
-File Replay: The simulator can read a file of commands and replay those commands, effectively replicating a previous session.
+
+**REPLAY**: File Replay: The simulator can read a file of commands and replay those commands, effectively replicating a previous session.
+
 
 **Installation and Running**
 
 Clone the Repository:
 
 git clone https://github.com/zgolwala/RobotGame.git
+
 cd <repository_directory>
 
 **Compile:**
